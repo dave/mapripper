@@ -19,20 +19,20 @@ const STEP_X = 1500
 const STEP_Y = 1500
 
 //middle of resort
-//const START_X = 50644500
-//const START_Y = 15433500
+const START_X = 50644500
+const START_Y = 15433500
 //const FROM_X = -14
 //const TO_X = 7
 //const FROM_Y = -7
 //const TO_Y = 9
 
 //yotei detail
-const START_X = 50689500
-const START_Y = 15417000
-const FROM_X = -12
-const TO_X = 11
+//const START_X = 50689500
+//const START_Y = 15417000
+const FROM_X = 0
+const TO_X = 21
 const FROM_Y = -8
-const TO_Y = 8
+const TO_Y = 18
 
 //yotei area
 //const START_X = 50689500
@@ -44,7 +44,7 @@ const TO_Y = 8
 
 func main() {
 
-	saveNow(FROM_X, FROM_Y, TO_X, TO_Y, `yotei.png`)
+	saveNow(FROM_X, FROM_Y, TO_X, TO_Y, `../maps/niseko.png`)
 	//	saveNow(FROM_X, FROM_Y, 0, 0, `tmp1.png`)
 	//	saveNow(FROM_X, 1, 0, TO_Y, `tmp2.png`)
 	//	saveNow(1, FROM_Y, TO_X, 0, `tmp3.png`)
